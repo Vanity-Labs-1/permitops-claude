@@ -1,0 +1,13 @@
+{
+  "name": "permitops-marketplace",
+  "owner": { "name": "Vanity Labs LLC" },
+  "metadata": { "description": "PermitOps job evidence and reviewed private source excerpts." },
+  "plugins": [
+    {
+      "name": "permitops",
+      "source": "./",
+      "description": "Find PermitOps job evidence with citations and save reviewed source excerpts privately.",
+      "version": "0.3.0"
+    }
+  ]
+}

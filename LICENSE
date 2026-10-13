@@ -1,0 +1,34 @@
+PermitOps Plugin Free-Use License
+License identifier: LicenseRef-PermitOps-Free-Use
+Copyright (c) 2026 Vanity Labs LLC. All rights reserved except as granted below.
+
+1. Scope. This license applies only to the plugin files in this repository.
+It does not license the PermitOps application, server, service, customer data,
+or any other software, and grants no rights in trademarks or branding.
+
+2. Free use. You may download, copy, install, and use the plugin without a
+plugin license fee for your own purposes or your organization's internal use.
+You may modify your copies for those purposes and retain backup copies.
+Access to the hosted PermitOps service requires a separate eligible account
+and remains subject to that service's terms and any subscription charges.
+
+3. Restricted redistribution. You may not sell, publish, redistribute,
+sublicense, or offer the plugin or modified copies to third parties without
+prior written permission from Vanity Labs LLC. Copies shared within your
+organization solely for its internal use are permitted. This restriction
+does not prevent GitHub, Anthropic, or another hosting provider selected by
+Vanity Labs LLC from storing and delivering publisher-supplied plugin files
+through the publisher's repositories, releases, or authorized directory listing.
+
+4. Notices. Keep this license and copyright notices with permitted copies.
+No ownership transfers. Rights not expressly granted remain reserved.
+
+5. No warranty. THE PLUGIN IS PROVIDED "AS IS", WITHOUT WARRANTIES OF ANY
+KIND, EXPRESS OR IMPLIED, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE, AND NON-INFRINGEMENT. TO THE EXTENT PERMITTED BY APPLICABLE LAW,
+VANITY LABS LLC IS NOT LIABLE FOR DAMAGES ARISING FROM USE OF THE PLUGIN.
+
+6. Termination. This permission ends if you violate this license. On termination,
+stop using and distributing the plugin and remove copies under your control.
+
+For redistribution permission or support: https://www.permitops.com/support

@@ -1,0 +1,16 @@
+{
+  "name": "permitops",
+  "displayName": "PermitOps",
+  "version": "0.3.0",
+  "description": "Find PermitOps job evidence with citations and save explicitly reviewed source excerpts privately.",
+  "author": { "name": "Vanity Labs LLC", "url": "https://www.permitops.com" },
+  "homepage": "https://www.permitops.com/",
+  "repository": "https://github.com/Vanity-Labs-1/permitops-claude",
+  "license": "LicenseRef-PermitOps-Free-Use",
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://github.com/Vanity-Labs-1/permitops-claude#readme",
+  "supportUrl": "https://www.permitops.com/support",
+  "privacyPolicyUrl": "https://www.permitops.com/privacy-policy",
+  "termsOfServiceUrl": "https://www.permitops.com/terms",
+  "keywords": ["permitops", "job-evidence", "citations", "private-imports"]
+}
