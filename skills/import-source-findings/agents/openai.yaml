@@ -1,0 +1,4 @@
+interface:
+  display_name: "Import source findings"
+  short_description: "Review and save private PermitOps source excerpts"
+  default_prompt: "Help me bring selected findings from a connected source into PermitOps privately."
