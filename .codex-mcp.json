@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "permitops": {
+      "type": "http",
+      "url": "https://www.permitops.com/api/mcp",
+      "scopes": ["permitops:read", "permitops:source-import"]
+    }
+  }
+}

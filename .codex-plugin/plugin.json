@@ -1,0 +1,49 @@
+{
+  "name": "permitops",
+  "version": "0.4.0",
+  "description": "Find PermitOps job evidence with citations and save explicitly reviewed source excerpts privately.",
+  "author": {
+    "name": "Vanity Labs LLC",
+    "url": "https://www.permitops.com"
+  },
+  "homepage": "https://www.permitops.com/",
+  "repository": "https://github.com/Vanity-Labs-1/permitops-claude",
+  "license": "LicenseRef-PermitOps-Free-Use",
+  "skills": "./skills/",
+  "mcpServers": "./.codex-mcp.json",
+  "interface": {
+    "displayName": "PermitOps",
+    "shortDescription": "Job evidence and imports",
+    "longDescription": "Find permitted jobs and document evidence with citations. Use separately connected source apps to locate relevant information, review the proposed excerpt and source link, and explicitly save a submitted copy privately to PermitOps. Share it with a job or property separately in the web app. Available to enabled workspace owners and admins with an active paid PermitOps subscription. Imports are submitted text excerpts, not verified original files or automatic synchronization. Answers disclose missing text and partial retrieval coverage.",
+    "developerName": "Vanity Labs LLC",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://www.permitops.com/",
+    "supportURL": "https://www.permitops.com/support",
+    "privacyPolicyURL": "https://www.permitops.com/privacy-policy",
+    "termsOfServiceURL": "https://www.permitops.com/terms",
+    "defaultPrompt": [
+      "Find a PermitOps job and answer my document question with citations.",
+      "Help me review a finding from a connected source and save it privately to PermitOps."
+    ],
+    "brandColor": "#1B71FF",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/icon.png"
+  },
+  "extensions": {
+    "com.openai": {
+      "review": {
+        "commerce": true,
+        "commerce_description": "The plugin requires a paid PermitOps subscription. Users purchase monthly Solo, Team, or Operations subscriptions, or arrange custom Enterprise pricing, through the PermitOps website. Pricing and signup links are available at https://www.permitops.com/pricing."
+      },
+      "publication": {
+        "countries": [
+          "US"
+        ]
+      }
+    }
+  }
+}

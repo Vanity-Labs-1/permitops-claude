@@ -1,4 +1,4 @@
-# PermitOps for Claude
+# PermitOps for Claude and Codex
 
 ![PermitOps](assets/icon.png)
 
@@ -9,7 +9,7 @@ Redistribution is restricted. PermitOps service subscriptions are separate.
 
 ## Download and install
 
-Download **permitops-claude-0.3.0.zip** from the
+Download **permitops-claude-0.4.0.zip** from the
 [latest release](https://github.com/Vanity-Labs-1/permitops-claude/releases/latest).
 In Claude web, Desktop, or Cowork, open **Customize > Plugins > Add > Upload
 plugin**, choose that ZIP, and enable PermitOps. Available controls depend on
@@ -22,7 +22,18 @@ For Claude Code, use the publisher's GitHub marketplace:
 /plugin install permitops@permitops-marketplace
 ```
 
-Or extract the release ZIP, validate it, and load it locally:
+For Codex, add this repository as a plugin marketplace, then install
+PermitOps from the plugin directory (`/plugins`):
+
+```text
+codex plugin marketplace add Vanity-Labs-1/permitops-claude
+```
+
+The same package serves both hosts: Claude reads `.claude-plugin/` and
+`.mcp.json`, and Codex reads `.codex-plugin/`, `.codex-mcp.json` and
+`.agents/plugins/marketplace.json`.
+
+Or extract the release ZIP, validate it, and load it locally in Claude Code:
 
 ```text
 claude plugin validate /absolute/path/to/permitops
